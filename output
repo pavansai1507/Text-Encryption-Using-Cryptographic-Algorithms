@@ -1,0 +1,10 @@
+POST /encrypt
+Request Body:
+{
+  "text": "Hello, World!",
+  "key": "MySecretKey"
+}
+Response:
+{
+  "encryptedText": "4CjCFR6uJZah4XRwoYi8Rg=="
+}
